@@ -15,5 +15,11 @@ module.exports = withNativeFederation({
       requiredVersion: "auto",
       includeSecondaries: false,
     }),
+    '@scope/counter': {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: 'auto',
+      includeSecondaries: false,
+    }
   },
 });

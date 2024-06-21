@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { Counter } from '@scope/counter';
+</script>
+
 <div class="card" data-e2e="APP__CARD">
 	<div class="icon">
 		<svg
@@ -19,6 +23,7 @@
 		</svg>
 	</div>
 	<div class="title">I'm the remote app</div>
+	<Counter />
 </div>
 
 <style>
