@@ -1,0 +1,13 @@
+{
+  "name": "module-federation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "pnpm --parallel --filter module-federation_* dev",
+    "build": "pnpm --parallel --filter module-federation_* build",
+    "preview": "pnpm --parallel --filter module-federation_* preview"
+  },
+  "keywords": [],
+  "author": "Mooncat25",
+  "license": "UNLICENSED"
+}
