@@ -9,6 +9,9 @@ importers:
       '@module-federation/vite':
         specifier: ^0.2.8
         version: 0.2.8(@softarc/native-federation@2.0.9)
+      '@scope/counter':
+        specifier: workspace:^
+        version: link:../../packages/counter
       '@softarc/native-federation':
         specifier: ^2.0.9
         version: 2.0.9

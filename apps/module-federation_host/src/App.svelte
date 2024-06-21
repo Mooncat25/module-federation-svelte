@@ -1,5 +1,6 @@
 <script lang="ts">
   import { loadRemoteModule } from '@softarc/native-federation';
+	import { Counter } from '@scope/counter';
 
   let remoteAppTarget;
 	(async () => {
@@ -32,6 +33,8 @@
 			</svg>
 		</div>
 		<div class="title">I'm the host app</div>
+
+		<Counter />
 	</div>
 </div>
 
